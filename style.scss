@@ -1,0 +1,43 @@
+body{
+    background: linear-gradient(rgba(0,0,0,.491),rgba(0,0,0,0.416)), url(./images/login-bg.jpeg);
+    height: 100vh;
+}
+.login-top{
+    width: 100vw;
+    height: 60px;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    img{
+        width: 150px;
+    }
+}
+
+.login-box{
+    background: black;
+    width: 430px;
+    height: 600px;
+    // background: transparent;
+    z-index: 99;
+    border-radius: 4px;
+    padding: 60px;
+    // background: linear-gradient(rgba(0,0,0,.78),rgba(0,0,0,.76));
+    background: rgba(0,0,0,.75);
+}
+
+.small-text{
+    font-size: 13px;
+
+}
+
+.form-control{
+    box-shadow: none !important;
+}
+
+.line-through:hover{
+    text-decoration: underline;
+}
+
+button.btn-danger{
+    background: #e50914;
+}
